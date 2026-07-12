@@ -66,3 +66,10 @@ let checkeveryexample=personArryay.every((p)=>{
     return p.age<100
 })
 console.log(checkeveryexample)
+
+
+let getindex=personArryay.findIndex((sg)=>{
+    return sg.country==="America"
+})
+
+console.log(getindex)

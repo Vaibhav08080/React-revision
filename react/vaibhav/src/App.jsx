@@ -14,6 +14,9 @@ import { Showcounter } from './task'
 import TrafficLight from './light'
 import { UserDetails } from './apifetching/index.jsx'
 import {UsingCacheData} from './apifetching/usingcache.jsx'
+import { UsereducerExample } from './usereducer.jsx'
+import ComponentButton from './content-concept/button.jsx'
+import ComponentText from './content-concept/text.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,7 +33,10 @@ function App() {
       {/* <Showcounter/> */}
       {/* <TrafficLight/> */}
       {/* <UserDetails/> */}
-      <UsingCacheData/>
+      {/* <ComponentButton/> */}
+      {/* <ComponentText/> */}
+      <UsereducerExample/>
+      {/* <UsingCacheData/> */}
       {/* <FunctionHandleClick/> */}
     </div>
     </>

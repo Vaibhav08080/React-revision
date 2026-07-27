@@ -11,6 +11,9 @@ import { ShowtextwithButton } from './practicecom'
 import { HooksPractice } from './hooks'
 import { Useeffectpractice } from './useeffect'
 import { Showcounter } from './task'
+import TrafficLight from './light'
+import { UserDetails } from './apifetching/index.jsx'
+import {UsingCacheData} from './apifetching/usingcache.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,7 +27,10 @@ function App() {
       {/* <ShowtextwithButton/> */}
       {/* <HooksPractice/> */}
       {/* <Useeffectpractice/> */}
-      <Showcounter/>
+      {/* <Showcounter/> */}
+      {/* <TrafficLight/> */}
+      {/* <UserDetails/> */}
+      <UsingCacheData/>
       {/* <FunctionHandleClick/> */}
     </div>
     </>
